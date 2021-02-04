@@ -1,0 +1,14 @@
+cleaner:
+  prometheus:
+    host: prometheus-service:9090
+    #tls:
+  timeout: 10
+  from: 2020-12-20 20:00:00
+  to: 2020-12-21 14:00:00
+#  metrics:
+#    - metrics1
+#    - metrics2
+#    - metrics3
+#  labels:
+#    label1: value1
+#    label2: value2
